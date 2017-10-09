@@ -1,0 +1,78 @@
+header {
+  display: flex;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+header span {
+  padding: 10px;
+}
+
+.logo {
+ display: flex;
+ align-items: center;
+ color: MediumAquamarine;
+ padding-left: 30px;
+ padding-bottom: 10px;
+ flex-grow: 1;
+}
+
+nav span {
+  display: inline-flex;
+  padding: 20px 10px;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  margin: 0 auto 78px auto;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.large {
+  width: 630px;
+  border: 1px solid black;
+}
+
+.medium {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.small {
+  width: 240px;
+  border: 1px solid black;
+}
+
+h2 {
+  display: block;
+}
+
+.p {
+  display: block;
+}
+
+.text-content {
+  border: 1px solid black;
+}
+
+.story {
+  border: 1px solid black;
+}
+
+.news-bites {
+  border: 1px solid black;
+}
+
+.cookie {
+  border: 1px solid black;
+}
+
+.pop-culture {
+  border: 1px solid black;
+}
