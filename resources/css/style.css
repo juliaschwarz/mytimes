@@ -29,9 +29,9 @@ nav span {
   display: flex;
   flex-direction: row;
   border: 1px solid black;
-  margin: 0 auto 78px auto;
-  padding: 20px;
   justify-content: space-between;
+  margin: auto;
+  padding: 30px;
 }
 
 .large {
@@ -75,4 +75,41 @@ h2 {
 
 .pop-culture {
   border: 1px solid black;
+}
+
+.main-story {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.earth {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  height: 300px;
+}
+
+.research {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  height: 300px;
+}
+
+.cats {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  height: 300px;
+}
+
+.headline {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
